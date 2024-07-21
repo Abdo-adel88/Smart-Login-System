@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="two-input shadow d-flex align-items-center justify-content-center flex-column w-75">
+                <h1 class="mt-2">Smart Login System</h1>
+                <div class=" w-75">
+                    <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                    <input type="email" class="form-control innp text-white" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+
+                </div>
+                <div class=" w-75">
+                    <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+                    <input type="password" class="form-control innp text-white" id="exampleInputPassword1">
+                </div>
+                <button onclick="checkInput()" type="button" class="btn btn-info  w-75 mt-5"> login</button>
+                
+                <div id="result-sign" class="text-center text-danger my-3">
+
+                </div>
+                
+                <div class="mt-5">
+                    <h5 class="text-white">Dont have an account?<a href="signup.html"
+                            class="ms-2 text-decoration-none text-info hov-under">Sign
+                            Up</a> </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
